@@ -1,0 +1,57 @@
+/* IMPORTANT: THIS IS YOUR GENERAL PAGE, ONLY USE FOR HEADINGS + FOOTERS + FORMAT [ FOR WHAT'S STAYING ON YOUR PAGE ] 
+–––––––––––––––––––––––––––––––––––––––––––––– */
+
+/* Font Imports (Poppings is Top Font) Brawler is Body Font
+–––––––––––––––––––––––––––––––––––––––––––––– */
+@import url('https://fonts.googleapis.com/css?family=Brawler&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Poppins&display=swap');
+
+
+
+
+
+
+/* Colors
+–––––––––––––––––––––––––––––––––––––––––––––– */
+
+/* Header & Navigation
+–––––––––––––––––––––––––––––––––––––––––––––– */
+a {
+  text-decoration: none;
+}
+.nav-wrapper {
+  text-align: center;
+    font-size: 1.5em;
+    display: block;
+}
+
+
+/* Format
+–––––––––––––––––––––––––––––––––––––––––––––– */
+  body {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    font-size: 10px;
+    line-height: 155;
+    font-family:'Brawler', serif, Arial, Helvetica, sans-serif;
+  }
+
+
+/* Menu Stuff
+–––––––––––––––––––––––––––––––––––––––––––––– */
+
+/* Typography
+–––––––––––––––––––––––––––––––––––––––––––––– */
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Poppins', sans-serif;
+}
+
+/* Images
+–––––––––––––––––––––––––––––––––––––––––––––– */
+
+/* Footer
+–––––––––––––––––––––––––––––––––––––––––––––– */
+
+/* Media Queries + Grids
+–––––––––––––––––––––––––––––––––––––––––––––– */
