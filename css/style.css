@@ -1,30 +1,60 @@
-/* IMPORTANT: THIS IS YOUR GENERAL PAGE, ONLY USE FOR HEADINGS + FOOTERS + FORMAT [ FOR WHAT'S STAYING ON YOUR PAGE ] 
-–––––––––––––––––––––––––––––––––––––––––––––– */
-
-/* Font Imports (Poppings is Top Font) Brawler is Body Font
-–––––––––––––––––––––––––––––––––––––––––––––– */
 @import url('https://fonts.googleapis.com/css?family=Brawler&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Poppins&display=swap');
 
-
-
-
-
-
 /* Colors
 –––––––––––––––––––––––––––––––––––––––––––––– */
-
 /* Header & Navigation
 –––––––––––––––––––––––––––––––––––––––––––––– */
 a {
   text-decoration: none;
 }
+
 .nav-wrapper {
   text-align: center;
     font-size: 1.5em;
-    display: block;
+    display: grid;
+  grid-template-columns:1fr 2.5fr 1fr 1.5fr;
+  background-color: #F9F95F;
+  padding: 1em;
+  -webkit-box-shadow: -7px 13px 78px 4px rgba(0,0,0,0.75);
+-moz-box-shadow: -7px 13px 78px 4px rgba(0,0,0,0.75);
+box-shadow: -7px 13px 78px 4px rgba(0,0,0,0.75);
 }
 
+
+.log-in-text{
+  margin-top:0;
+  margin-bottom:0;
+}
+
+.log-in{
+  border-radius:2em;
+  margin-left:1em;
+}
+
+.log-in:hover{
+  background-color:#9B9BBA;
+}
+
+.menu li{
+  padding-left:2em;
+}
+
+.menu li:hover{
+  color:#9B9BBA;
+}
+
+.search-bar{
+  margin-right:2em;
+  border-radius:2em;
+  padding:.5em;
+}
+
+.search-sign-in{
+  grid-column-start:4;
+  padding-top:1em;
+ 
+}
 
 /* Format
 –––––––––––––––––––––––––––––––––––––––––––––– */
@@ -33,22 +63,49 @@ a {
     margin: 0;
     padding: 0;
     font-size: 10px;
-    line-height: 155;
-    font-family:'Brawler', serif, Arial, Helvetica, sans-serif;
+    line-height: 15xpx;
+    font-family:'Poppins', serif, Arial, Helvetica, sans-serif;
   }
 
+.open-book{
+  display:grid;
+  grid-template-columns: 1fr 1fr;
+  background-color:green;
+}
 
 /* Menu Stuff
 –––––––––––––––––––––––––––––––––––––––––––––– */
-
+ul {
+  list-style: none;
+  display: inline;
+  text-align: left;
+  grid-column-start: 2;
+  padding-left: 0px;
+  font-size: 20px;
+}
+li {
+  display: inline;
+  color: #FC615E;
+  padding-left: 2px;
+  padding-right: 2px;
+}
 /* Typography
 –––––––––––––––––––––––––––––––––––––––––––––– */
 h1, h2, h3, h4, h5, h6 {
   font-family: 'Poppins', sans-serif;
 }
-
+p {
+  font-family: 'Poppins', sans-serif;
+  font-size: 16px;
+}
 /* Images
 –––––––––––––––––––––––––––––––––––––––––––––– */
+
+
+.drop-menu{
+  width: 1em;
+}
+
 
 /* Footer
 –––––––––––––––––––––––––––––––––––––––––––––– */
